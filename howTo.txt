@@ -15,3 +15,6 @@ git push -u origin main
 go get github.com/developerc/organizeGitHub/morestrings/
 
 go mod init github.com/developerc/organizeGitHub/tree/master/morestrings
+go get -u github.com/developerc/organizeGitHub
+module github.com/developerc/organizeGitHub
+module github.com/developerc/organizeGitHub/morestrings

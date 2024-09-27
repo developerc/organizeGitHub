@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/developerc/organizeGitHub/tree/master/morestrings"
+	"github.com/developerc/organizeGitHub/morestrings"
 )
 
 func main() {
