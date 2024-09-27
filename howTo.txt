@@ -1,20 +1,20 @@
 //Перешел в корень проекта. Создаю модуль
 go mod init github.com/developerc/organizeGitHub
 //создался файл go.mod
+//В папке morestrings тоже создал модуль
+go mod init github.com/developerc/organizeGitHub/morestrings 
+//Заливал на гитхаб, пользовался инструментом VS Code
 //Нажал на кнопку Source Control
 //Нажал на кнопку Initialize Repository
 //Напечатал имя коммита "first commit", нажал на кнопку Commit
 //Появилось поле ввода и кнопка Publish Branch, напечатал "publish" и нажал на кнопку
 //вверху появилось поле для создания внешнего репозитория, подтвердил
-//На гитхабе создаю проект
+//Или использую команды
 git remote add origin https://github.com/developerc/organizeGitHub.git
 git branch -M main
 git push -u origin main
-//На гитхабе появился репозиторий
-//Перешел в корень проекта, установил пакет morestrings
+//На гитхабе появился репозиторий, убедиться что репозиторий Public
+//Перешел в корень проекта, скачал пакет morestrings
 go get github.com/developerc/organizeGitHub/morestrings/
-
-go mod init github.com/developerc/organizeGitHub/tree/master/morestrings
-go get -u github.com/developerc/organizeGitHub
-module github.com/developerc/organizeGitHub
-module github.com/developerc/organizeGitHub/morestrings
+//Можно запускать приложение
+go run .
