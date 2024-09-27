@@ -1,0 +1,8 @@
+//Перешел в корень проекта. Создаю модуль
+go mod init github.com/developerc/organizegithub
+//создался файл go.mod
+//Нажал на кнопку Source Control
+//Нажал на кнопку Initialize Repository
+//Напечатал имя коммита "first commit", нажал на кнопку Commit
+//На гитхабе создаю проект
+git remote add origin https://github.com/developerc/organizegithub.git
