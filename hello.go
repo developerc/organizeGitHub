@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"helloorganize/morestrings"
+
+	"github.com/developerc/organizeGitHub/morestrings"
 )
 
 func main() {
