@@ -1,3 +1,3 @@
-module github.com/developerc/organizegithub
+module github.com/developerc/organizeGitHub
 
 go 1.23.1
